@@ -1,0 +1,155 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+section{
+    border-style: 
+}
+div{
+    border-style: solid;
+}
+article{
+    border-style: solid;
+}
+#arriba, #abajo {
+    display: flex;
+    font-size: 400%;
+    -webkit-text-stroke: 1px #3e3e3e;
+    opacity: 1;
+    color: rgb(249, 181, 62);
+    text-shadow: #3e3e3e;
+    position: absolute;
+    background-image: linear-gradient(to right, #fffdf9, #f7cd4e); 
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+}
+
+#arriba{
+    margin-left: 1%;
+}
+#abajo{
+    margin-top: 5%;
+    margin-left: 20%;
+}
+#presentacion{
+    width: 90%; 
+    height: 90%;
+    margin-top: -1%;
+    margin-left: -0.6%;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    animation: presentacion 20s infinite linear;
+}
+
+@keyframes presentacion{
+    0%{    
+        
+        background-image: url(https://cloudfront-us-east-1.images.arcpublishing.com/infobae/ELN43267AFCNFFZWLCIENIJ5YQ.jpg);
+        opacity: 0.45;
+        width: 100%;
+        height: 100%;
+    }
+    12%{
+        opacity: 0.75;
+    }
+    24%{
+        opacity: 0.45;
+    }
+    36%{
+        background-image: url(https://www.hvcruzcubierta.com/wp-content/uploads/2020/02/juego-en-perros-y-gatos-1.jpg);
+        width: 100%;
+        height: 100%;
+    }
+    48%{
+        opacity: 0.75;
+    }
+    60%{
+        opacity: 0.45;
+    }
+    72%{
+        background-image: url(https://imagenes.elpais.com/resizer/v2/2LNQJII6MRHVTAOWG7ZUE7TVIE.jpg?auth=0ef5bf695c9b206bccda59f5f115396144e05e7a3df648817548109e3676091b&width=1960&height=1103&smart=true);
+        width: 100%;
+        height: 100%;
+    }
+    84%{
+        opacity: 0.75;
+    }
+    96%{
+        opacity: 0.45;
+    }
+    100%{
+        background-image: url(https://cloudfront-us-east-1.images.arcpublishing.com/infobae/ELN43267AFCNFFZWLCIENIJ5YQ.jpg);
+        opacity: 0.45;
+        width: 100%;
+        height: 100%;
+    }
+}
+#informacion{position: absolute;
+    display: flex;
+    width: 40%;
+    font-size: 150%;
+    font-family:"Roboto Slab", Sans-serif;
+
+    margin-left: 5%;
+    margin-top: 23%;
+    color: rgb(252, 212, 120);
+    -webkit-text-stroke: 1px #000000;
+}
+
+
+
+#acciones {
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-left: 50%;
+    margin-top: 15%;
+    width: 50%;
+    color:rgb(232, 165, 78);
+    
+    
+}
+article{
+    display: flex;
+    border-style: solid;
+    margin: 10%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e2e9e0; opacity: 0.55;
+    padding: 5%;
+    border-radius: 45%;
+}
+article h1{
+    font-size: 150%;
+}
+article img{
+    display: flex;
+    width: 20%;
+    margin-left: 40%;
+
+}
+article:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+    opacity: 1;
+}
+#contenedor {
+    display: flex;
+    height: 90%;
+    margin-top: 50%;
+}
+
+#mision, #vision {
+  flex: 1;
+}
+
+
