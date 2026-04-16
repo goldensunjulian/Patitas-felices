@@ -1,0 +1,161 @@
+@media screen and (max-width: 480px){
+body{background-color: rgb(252, 252, 252);}
+#patitas{border:none;
+margin-right: -61%;
+padding: 20px;
+max-width: 18%;
+ 
+}
+nav h1 img{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: -100px ;
+    border:dotted;
+ margin-bottom: -10%;
+}
+.dispo{
+    padding-right: 150%;
+padding-left: 7%;}
+
+section {
+        display: block !important; 
+        width: 100% !important;
+    }
+
+article {
+        
+        margin: 10px 5% !important;
+        padding-bottom: 20px !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    text-align: center;}
+ul{padding: 0;
+    width: 100%;
+}
+ul li {
+    justify-content: center;
+    margin: 5px auto;
+    width: fit-content;
+    min-width: 150px;
+    text-align: center;
+    padding: 0%;
+
+    }
+
+
+}
+img
+
+button{
+    margin-top: 5%;
+}
+section{
+  display: grid; 
+  grid-template-columns: repeat(3,1fr); 
+  justify-content: center;
+  text-align: center;
+  row-gap: 12%;
+
+
+
+}
+
+nav{
+    display: flex;
+}
+
+
+
+img{
+    max-width: 40%;
+}
+
+ul li{
+    list-style: none;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border: groove;
+    margin:0% 20%;
+    margin-top: 10%;
+    padding-left: 18%; 
+    text-align: left;
+    background-color: aliceblue;
+
+}
+article{
+    border: groove;
+    margin: 0% 12%;
+    margin-bottom: -15%;
+    background-color: #e0ebeb;
+    padding-bottom: -200%;
+    
+}
+h3{
+    font-family:'Times New Roman', Times, serif;
+    font-size:x-large;
+    background-image: linear-gradient(to right, #eef26d, #e65b5b); 
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: rgb(111, 165, 165);
+}
+.dispo{ border: groove;
+    text-align: center;
+    background-color:  rgb(225, 177, 94);
+    margin-left: 4%;
+    color: rgb(255, 255, 255);
+    font-size: 180%;
+    margin-right: 75%  ;
+}
+
+#patitas{
+    margin-left: 38%;
+    width: 80px;
+}
+
+#Adoptados{
+    background-color:  rgb(62, 93, 93) ;
+}
+
+#linea2{  
+      margin-top: 15%;}
+
+
+
+img:hover{
+        transform: scale(1.2);
+}
+.letrero{
+    border-style: solid;
+    opacity: 0.5;
+}
+
+.letrero:hover{
+    transform: scale();
+    position: absolute;
+    opacity: 1;
+}
+
+footer{
+    display: flex;
+    border: top, solid;
+    margin-top: 8%;
+    background-color: #0B2147;
+    color: white;
+    width: 99%;
+    margin-left: -1%;
+    padding: 1%;
+}
+#PrimerLado, #SegundoLado{
+    font-size: 120%;
+    width: 50%;
+    padding: 3%;
+}
+footer a{
+    text-decoration: none;
+    color: rgb(184, 195, 239);
+}
+  

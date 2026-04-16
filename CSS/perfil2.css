@@ -1,0 +1,211 @@
+
+
+body {
+  background-color: rgb(225, 218, 208);
+}
+
+h1 {
+  text-align: left;
+  margin-left: 35%;
+  color: rgb(64, 104, 104);
+}
+
+h2 {
+  justify-content: left;
+
+}
+
+img {
+  max-width: 31%;
+  padding: 0px 20%;
+}
+
+section {
+  display: flex;
+
+}
+
+article {
+  margin-left: -15%;
+}
+
+ul li {
+  font-size: large;
+  list-style: none;
+  text-align: left;
+  margin-left: -10%;
+}
+
+p {
+  font-size: large;
+}
+
+h3 {
+  border: dotted;
+  background-color: rgb(247, 217, 95);
+  margin-right: 80%;
+  padding: 3%;
+  color: rgb(251, 254, 255);
+  font-size: smaller;
+}
+
+a {
+  text-decoration: none;
+}
+
+a h3 {
+  border-radius: 50%;
+}
+
+a h2 {
+  color: rgb(64, 104, 104);
+}
+
+h2 {
+  color: rgb(77, 15, 135);
+}
+
+#carrusel {
+  animation: gatitos 12s ease-in-out infinite;
+}
+
+.carrusel1 {
+  position: absolute;
+  top: 25%;
+  left: 46%;
+  height: 30%;
+  margin-top: 20%;
+  transform: translateX(-19%);
+  opacity: 0;
+  animation: gatitos 25s infinite;
+  object-fit: cover;
+
+}
+
+
+#Lilith {
+  animation-delay: 0s;
+}
+
+#Jul {
+  animation-delay: 5s;
+}
+
+#Yoshiko {
+  animation-delay: 10s;
+}
+
+#Lucy {
+  animation-delay: 15s;
+}
+
+#Nyx {
+  animation-delay: 20s;
+}
+
+
+@keyframes gatitos {
+  0% {
+    opacity: 0;
+  }
+
+  10% {
+    opacity: 1;
+  }
+
+  20% {
+    opacity: 1;
+  }
+
+  30% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+footer {
+  display: flex;
+  border: top, solid;
+  margin-top: 5%;
+  background-color: #0B2147;
+  color: white;
+}
+
+#PrimerLado,
+#SegundoLado {
+  font-size: 120%;
+  width: 50%;
+  padding: 3%;
+}
+
+footer a {
+  text-decoration: none;
+  color: rgb(184, 195, 239);
+}
+
+
+
+@media(max-width: 480px) {
+  h1 {
+    text-align: center;
+  }
+
+  section {
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  section img {
+    max-width: 90%;
+    padding: 10px 20%;
+  }
+
+  article {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+
+    margin-right: 30%;
+    width: 20%;
+  }
+
+  .carrusel1 {
+    position: absolute;
+    object-fit: cover;
+    border: dotted;
+    width: 80%;
+    margin-top: 250%;
+    margin-left: -20%;
+  }
+  footer{
+    flex-direction: column;
+  }
+  h2 {
+    margin-right: -50%;
+    padding-right: 50px;
+  }
+
+  a h3 {
+    padding: 0px 45%;
+    border: groove;
+    margin-right: -50%;
+    font-size: small;
+  }
+
+  a h2 {
+    margin-bottom: 170%;
+  }
+  body{border: dotted;
+  margin: 0px;
+
+  align-items: center;}
+  #gato{
+    padding: 0px;
+  }
+  section img{
+    padding: 0px;
+  }
+}
