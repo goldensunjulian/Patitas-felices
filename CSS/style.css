@@ -32,7 +32,6 @@ ul a:hover{
 article{
     border-style: solid;
 }
-
 #arriba, #abajo {
     display: flex;
     font-size: 400%;
@@ -125,7 +124,6 @@ article{
     margin-left: 50%;
     margin-top: 15%;
     width: 50%;
-
     
     
 }
@@ -245,7 +243,6 @@ footer a{
     color: rgb(184, 195, 239);
 }
 @media (max-width: 480px) {
-    /* 1. EL NAV */
     header img {
         position: relative;
         width: 40%;
@@ -253,148 +250,126 @@ footer a{
         margin: 0 auto;
         padding-top: 15px;
     }
-    
     ul {
-        flex-direction: column; /* Pone los links uno bajo el otro */
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         padding: 10px 0;
         gap: 10px;
     }
-    
     ul a {
         font-size: 120%;
         padding: 10px;
     }
-
-    /* 2. EL CARRUSEL */
-#presentacion {
-        position: absolute; /* Lo volvemos a hacer flotante para que sea fondo */
-        top: 0;             /* Que empiece desde el borde superior de la página */
+    #presentacion {
+        position: absolute;
+        top: 0;
         left: 0;
         width: 100%;
-        z-index: -1;        /* Lo mandamos al fondo para que no tape el texto ni el menú */
+        z-index: -1;
     }
-@keyframes presentacion{
-    0%{    
-        background-image: url(https://cloudfront-us-east-1.images.arcpublishing.com/infobae/ELN43267AFCNFFZWLCIENIJ5YQ.jpg);
-        opacity: 0.45;
-        width: 100%;
-        height: 63%;
-        background-position: center;
+    @keyframes presentacion{
+        0%{    
+            background-image: url(https://cloudfront-us-east-1.images.arcpublishing.com/infobae/ELN43267AFCNFFZWLCIENIJ5YQ.jpg);
+            opacity: 0.45;
+            width: 100%;
+            height: 63%;
+            background-position: center;
+        }
+        12%{
+            opacity: 0.75;
+        }
+        24%{
+            opacity: 0.45;
+        }
+        36%{
+            background-image: url(https://www.hvcruzcubierta.com/wp-content/uploads/2020/02/juego-en-perros-y-gatos-1.jpg);
+            width: 100%;
+            height: 63%;
+        }
+        48%{
+            opacity: 0.75;
+        }
+        60%{
+            opacity: 0.45;
+        }
+        72%{
+            background-image: url(https://imagenes.elpais.com/resizer/v2/2LNQJII6MRHVTAOWG7ZUE7TVIE.jpg?auth=0ef5bf695c9b206bccda59f5f115396144e05e7a3df648817548109e3676091b&width=1960&height=1103&smart=true);
+            width: 100%;
+            height: 63%;
+            background-position: center;
+        }
+        84%{
+            opacity: 0.75;
+        }
+        96%{
+            opacity: 0.45;
+        }
+        100%{
+            background-image: url(https://cloudfront-us-east-1.images.arcpublishing.com/infobae/ELN43267AFCNFFZWLCIENIJ5YQ.jpg);
+            opacity: 0.45;
+            width: 100%;
+            height: 63%;
+            background-position: center;
+        }
     }
-    12%{
-        opacity: 0.75;
-    }
-    24%{
-        opacity: 0.45;
-    }
-    36%{
-        background-image: url(https://www.hvcruzcubierta.com/wp-content/uploads/2020/02/juego-en-perros-y-gatos-1.jpg);
-        width: 100%;
-        height: 63%;
-    }
-    48%{
-        opacity: 0.75;
-    }
-    60%{
-        opacity: 0.45;
-    }
-    72%{
-        background-image: url(https://imagenes.elpais.com/resizer/v2/2LNQJII6MRHVTAOWG7ZUE7TVIE.jpg?auth=0ef5bf695c9b206bccda59f5f115396144e05e7a3df648817548109e3676091b&width=1960&height=1103&smart=true);
-        width: 100%;
-        height: 63%;
-        background-position: center;
-    }
-    84%{
-        opacity: 0.75;
-    }
-    96%{
-        opacity: 0.45;
-    }
-    100%{
-        background-image: url(https://cloudfront-us-east-1.images.arcpublishing.com/infobae/ELN43267AFCNFFZWLCIENIJ5YQ.jpg);
-        opacity: 0.45;
-        width: 100%;
-        height: 63%;
-        background-position: center;
-    }
-}
-    /* 3. TEXTOS PRINCIPALES */
     #arriba, #abajo {
         position: relative;
         font-size: 200%;
-        margin: 10px auto;  /* Quitamos el margen gigante que tenían en PC */
+        margin: 10px auto;
         text-align: center;
         display: block;
         width: 90%;
     }
-
-    /* 4. INFORMACIÓN */
     #informacion {
         position: relative;
         width: 90%;
         margin: 20px auto;
         font-size: 120%;
-        -webkit-text-stroke: 0px; /* Se lee mejor sin borde en celular */
+        -webkit-text-stroke: 0px;
     }
-
-    /* 5. BOTONES DE ACCIÓN */
     #acciones {
         position: relative;
         display: flex;
-        flex-direction: column; /* Los pone en fila india hacia abajo */
+        flex-direction: column;
         width: 100%;
         margin: 20px 0;
     }
-    
     article {
         width: 70%;
         margin: 10px auto;
     }
-    
     article img {
-        margin: 0 auto; /* Centra los iconos de los botones */
+        margin: 0 auto;
     }
-
-    /* 6. MISION Y VISION (Tenían un margin-top de 50% gigante) */
     #contenedor {
         flex-direction: column;
-        margin-top: 20px; /* Corregimos el salto al vacío */
+        margin-top: 20px;
         padding: 10px;
         gap: 20px;
     }
-    
     #vision, #mision {
         width: auto;
     }
-
-    /* 7. MOSAICO */
     #mosaico {
-        grid-template-columns: repeat(2, 1fr); /* 2 fotos por fila en vez de 4 */
+        grid-template-columns: repeat(2, 1fr);
         width: 100%;
         margin-top: 20px;
     }
-    
     #grande {
         grid-column: span 2;
         grid-row: span 1;
     }
-
-    /* 8. FORMULARIO (Tenía margen negativo y aparecía flotando raro) */
     #formulario {
         position: relative;
         width: 90%;
-        margin: 30px auto; /* Lo centramos tranquilo en la pantalla */
+        margin: 30px auto;
         font-size: 100%;
     }
-
-    /* 9. FOOTER */
     footer {
         flex-direction: column;
         text-align: center;
     }
-    
     #PrimerLado, #SegundoLado {
         width: 100%;
     }
