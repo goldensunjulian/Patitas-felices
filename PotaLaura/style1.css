@@ -1,0 +1,57 @@
+#nombre {
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(148, 108, 108);
+        text-align: center;
+        background-color: rgb(200, 222, 233);
+    }
+
+nav ul{
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    background-color: rgb(167, 175, 181);
+    
+    
+}
+ul a{
+    text-decoration: none;
+    color: rgb(147, 77, 135);
+}
+ul li{ 
+    margin: 50px;
+}
+div{
+    display: flex;
+    gap: 19%;
+
+}
+
+img{ 
+    filter:drop-shadow(5px 5px 10px  rgba(57, 35, 95, 0.925));
+    box-shadow: 15px;
+    border-radius: 15px;
+    margin: 100px;
+    height: 40%;
+    width: 20%;
+
+}
+img:hover{transform: scale(1.2);
+
+}
+
+#java {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(230, 227, 224);
+    filter:drop-shadow(5px 5px 10px  rgba(207, 156, 255, 0.925));
+    
+}
+body{
+    background-image: url(https://wallpapers.com/images/hd/cloudy-mountain-and-forest-professional-desktop-3gpb4j14ljx9jhgg.jpg);
+    
+}
+#proyectos{
+    background-color: rgb(224, 222, 219);
+    filter:drop-shadow(5px 5px 10px  rgba(207, 156, 255, 0.925));
+}
